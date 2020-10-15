@@ -1,0 +1,9 @@
+Navbar {
+    background: darkred;
+    border-radius: 8px;
+    grid-area: n;
+  
+  }
+  .navigation div:nth-last-child(-n+2){
+    margin-bottom: 40px;
+  }

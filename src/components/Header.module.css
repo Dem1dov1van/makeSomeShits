@@ -1,0 +1,10 @@
+header img {
+  height: 100%;
+  position: absolute;
+}
+header {
+  background: darkcyan;
+  border-radius: 8px;
+  grid-area: h;
+  position: relative;
+}

@@ -1,9 +1,11 @@
 import React from 'react';
+import s from './Navbar.module.css';
+
 
 const Navbar = () => {
     return (
-        <navbar>
-            <div className="navigation">
+        <Navbar>
+            <div className={s.navigation}>
                 <div>
                     <a href="google.com">Profile</a>
                 </div>
@@ -21,7 +23,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-        </navbar>
+        </Navbar>
     )
 }
 

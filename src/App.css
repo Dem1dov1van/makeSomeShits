@@ -16,38 +16,5 @@
 img {
   border-radius: 8px;
 }
-header img {
-  height: 100%;
-  position: absolute;
-}
-header {
-  background: darkcyan;
-  border-radius: 8px;
-  grid-area: h;
-  position: relative;
-}
-navbar {
-  background: darkred;
-  border-radius: 8px;
-  grid-area: n;
 
-}
-.navigation div:nth-last-child(-n+2){
-  margin-bottom: 40px;
-}
-content {
-  background: darkblue;
-  border-radius: 8px;
-  grid-area: c;
 
-}
-.WrapperInfo {
-  display:flex;
-}
-content>img {
-  height: 150px;
-  width: 100%;
-}
-.Ava {
-height: 50px;
-}
